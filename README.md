@@ -1,4 +1,8 @@
 # Deformable-CNN
+> 官方（torchvision）源码：
+>
+> ​		 	https://pytorch.org/vision/stable/_modules/torchvision/ops/deform_conv.html
+
 一种可变形卷积网络模块，与Conv2D一样，但是多了一半参数。常用于检测形状易变的物体，在目标检测当中使用的很多。
 
 ![Deformable Conv ](https://gitee.com/lpengsu/pic-go/raw/master/img/Deformable%20Conv%20%E5%8F%82%E6%95%B0%E5%9B%BE.jpeg)
@@ -22,5 +26,3 @@
 ![image20220310105648791](https://gitee.com/lpengsu/pic-go/raw/master/img/image-20220310105648791.png)
 
  在对测试数据进行旋转和翻转进行测试之后，通过对比可以发现仍然是可变形卷积的精度要优于普通卷积，说明可变形卷积有一定的抗干扰能力。
-
-## 在VOC语义分割中使用
